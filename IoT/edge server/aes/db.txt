@@ -1,0 +1,10 @@
+create database IOT;
+use IOT;
+create table newuser(user varchar(50),pass varchar(50),mobile varchar(12),mailid varchar(50),address varchar(50));
+
+create table keydata(user varchar(100),user_key longblob);
+
+create table hashdata(user varchar(100),file varchar(100),hash varchar(300));
+
+
+
